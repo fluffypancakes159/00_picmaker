@@ -1,6 +1,8 @@
 import sys
 import random
 
+# By default generates random purple colors for each pixel
+
 def main(width=500, height=500, scale=255):
     out = ''
     for i in range(width):
